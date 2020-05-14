@@ -1,13 +1,13 @@
 const reverseString = require('./02-reverse-string');
 
-test('reverse dog', () =>{
+test('reverse dog', () => {
   expect(
-    reverseString('dog')
-  ).toBe('god')
-})
+    reverseString('dog'),
+  ).toBe('god');
+});
 
-test('reverse Odin', () =>{
+test('reverse Odin', () => {
   expect(
-    reverseString('Odin')
-  ).toBe('nidO')
-})
+    reverseString('Odin'),
+  ).toBe('nidO');
+});

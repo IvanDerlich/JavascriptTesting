@@ -1,13 +1,13 @@
 const capitalize = require('./01-capitalize');
 
-test('capitalize-1', () =>{
+test('capitalize-1', () => {
   expect(
-    capitalize('naMe')
-  ).toBe('NaMe')
-})
+    capitalize('naMe'),
+  ).toBe('NaMe');
+});
 
-test('capitalize-2', () =>{
+test('capitalize-2', () => {
   expect(
-    capitalize('test')
-  ).toBe('Test')
-})
+    capitalize('test'),
+  ).toBe('Test');
+});
