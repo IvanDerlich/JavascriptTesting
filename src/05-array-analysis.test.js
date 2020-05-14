@@ -1,0 +1,1 @@
+const arrayanalysis = require('./05-array-analysis')
