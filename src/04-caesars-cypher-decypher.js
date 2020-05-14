@@ -1,3 +1,5 @@
+/* eslint-disable no-mixed-operators */
+/* eslint-disable no-console */
 /* eslint-disable no-plusplus */
 function isUpperCase(str) {
   return str === str.toUpperCase();

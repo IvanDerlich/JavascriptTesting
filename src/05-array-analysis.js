@@ -1,10 +1,14 @@
-function analyze() {
+function analyze(array) {
+  const average = () => {
+    const sum = array.reduce((a, b) => a + b, 0);
+    return sum / array.length;
+  };
   return {
-    average: 4,
-    min: 1,
-    max: 8,
-    length: 6,
+    average: average(),
+    min: Math.min(...array),
+    max: Math.max(...array),
+    length: array.length,
   };
 }
 
-module.exports = analyze;
+export default analyze;

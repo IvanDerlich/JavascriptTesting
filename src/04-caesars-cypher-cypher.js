@@ -1,3 +1,5 @@
+/* eslint-disable no-mixed-operators */
+/* eslint-disable no-plusplus */
 /* Credits to:
   https://learnersbucket.com/examples/algorithms/caesar-cipher-in-javascript/
 */
