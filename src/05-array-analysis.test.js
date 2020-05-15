@@ -1,4 +1,4 @@
-import analyze from './05-array-analysis';
+const analyze = require('./05-array-analysis');
 
 test('analyze', () => {
   expect(analyze([1, 8, 3, 4, 2, 6])).toEqual({

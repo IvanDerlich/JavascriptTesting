@@ -11,4 +11,4 @@ function analyze(array) {
   };
 }
 
-export default analyze;
+module.exports =  analyze;

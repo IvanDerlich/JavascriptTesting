@@ -18,9 +18,9 @@ const deCypher = (str, key) => {
       console.log(str[i]);
       return 'Non letter present in message';
     }
-    if (str[i] === ' ') {
+    if (str[i] === ' ') { // space
       decipher += ' ';
-    } else if (isUpperCase(str[i])) {
+    } else if (isUpperCase(str[i])) { // uppercase
       decipher += String.fromCharCode((inputCode - key + 65) % 26 + 65);
     } else { // lowercase
       let code = inputCode - key;

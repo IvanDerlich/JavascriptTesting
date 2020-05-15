@@ -14,15 +14,14 @@ const cypher = (str, key) => {
   let decipher = '';
 
   for (let i = 0; i < str.length; i++) {
-    if (str[i] === ' ') {
+    if (str[i] === ' ') { //spaces
       decipher += ' ';
     } else if (!str[i].match(/^[A-Za-z\s]+$/i)) { // non letter
       decipher = -1;
       break;
-    } else if (isUpperCase(str[i])) { // if letter is uppercase then add uppercase letters
+    } else if (isUpperCase(str[i])) { // uppercase
       decipher += String.fromCharCode((str.charCodeAt(i) + key - 65) % 26 + 65);
-    } else {
-      // else add lowercase letters
+    } else {//lowercase 
       decipher += String.fromCharCode((str.charCodeAt(i) + key - 97) % 26 + 97);
     }
   }
