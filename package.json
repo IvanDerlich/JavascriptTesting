@@ -1,0 +1,27 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "[Here](https://www.theodinproject.com/courses/javascript/lessons/testing-practice)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanDerlich/JavascriptTesting.git"
+  },
+  "author": "Ivan Derlich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IvanDerlich/JavascriptTesting/issues"
+  },
+  "homepage": "https://github.com/IvanDerlich/JavascriptTesting#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "jest": "^26.0.1"
+  }
+}
